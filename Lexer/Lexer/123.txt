@@ -1,0 +1,9 @@
+/*
+	mengfei comment
+	/*
+		nested comments
+	*/
+*/
+public class{	/* mengfei */
+	int	meng/*comment*/fei;
+}

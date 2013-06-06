@@ -1,0 +1,45 @@
+﻿Build started 2012-6-26 11:02:33.
+     1>Project "E:\Compiler\Compiler_Parser\Compiler_Parser\Compiler_Parser.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\Compiler\Compiler_Parser\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Compiler_Parser.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BufferMgr.cpp Lexer.cpp Main.cpp Parser.cpp
+         Parser.cpp
+         Main.cpp
+         Lexer.cpp
+     1>e:\compiler\compiler_parser\compiler_parser\lexer.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\compiler\compiler_parser\compiler_parser\lexer.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+         BufferMgr.cpp
+     1>e:\compiler\compiler_parser\compiler_parser\buffermgr.cpp(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+     1>e:\compiler\compiler_parser\compiler_parser\buffermgr.cpp(105): warning C4715: 'BufferMgr::GetChar' : not all control paths return a value
+     1>e:\compiler\compiler_parser\compiler_parser\lexer.cpp(352): warning C4715: 'Lexer' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Compiler_Parser.exe.embed.manifest.res" Debug\Compiler_Parser_manifest.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Compiler\Compiler_Parser\Debug\Compiler_Parser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Compiler_Parser.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Compiler\Compiler_Parser\Debug\Compiler_Parser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Compiler\Compiler_Parser\Debug\Compiler_Parser.lib" /MACHINE:X86 Debug\Compiler_Parser.exe.embed.manifest.res
+         Debug\BufferMgr.obj
+         Debug\Lexer.obj
+         Debug\Main.obj
+         Debug\Parser.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Compiler_Parser.exe.embed.manifest" /manifest Debug\Compiler_Parser.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Compiler_Parser.exe.embed.manifest.res" Debug\Compiler_Parser_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Compiler\Compiler_Parser\Debug\Compiler_Parser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Compiler_Parser.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Compiler\Compiler_Parser\Debug\Compiler_Parser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Compiler\Compiler_Parser\Debug\Compiler_Parser.lib" /MACHINE:X86 Debug\Compiler_Parser.exe.embed.manifest.res
+         Debug\BufferMgr.obj
+         Debug\Lexer.obj
+         Debug\Main.obj
+         Debug\Parser.obj
+         Compiler_Parser.vcxproj -> E:\Compiler\Compiler_Parser\Debug\Compiler_Parser.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Compiler_Parser.unsuccessfulbuild".
+         Touching "Debug\Compiler_Parser.lastbuildstate".
+     1>Done Building Project "E:\Compiler\Compiler_Parser\Compiler_Parser\Compiler_Parser.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.32

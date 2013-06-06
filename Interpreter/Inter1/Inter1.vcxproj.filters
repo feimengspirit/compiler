@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Stm">
+      <UniqueIdentifier>{2900f097-0f37-41e4-a290-e0319c595a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exp">
+      <UniqueIdentifier>{aeafb712-9c9c-44d2-9620-431e4617c8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stm">
+      <UniqueIdentifier>{13496bcc-7ca4-46e0-98ec-808604304f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exp">
+      <UniqueIdentifier>{73e12ab8-497b-44b3-9f44-903b31952594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LastExpList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignStm.h">
+      <Filter>Header Files\Stm</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundStm.h">
+      <Filter>Header Files\Stm</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintStm.h">
+      <Filter>Header Files\Stm</Filter>
+    </ClInclude>
+    <ClInclude Include="Stm.h">
+      <Filter>Header Files\Stm</Filter>
+    </ClInclude>
+    <ClInclude Include="EseqExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpList.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="IdExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="NumExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="OpExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="PairExpList.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Inter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignStm.cpp">
+      <Filter>Source Files\Stm</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundStm.cpp">
+      <Filter>Source Files\Stm</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintStm.cpp">
+      <Filter>Source Files\Stm</Filter>
+    </ClCompile>
+    <ClCompile Include="EseqExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="IdExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="LastExpList.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="NumExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="OpExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="PairExpList.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

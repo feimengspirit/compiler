@@ -1,0 +1,27 @@
+﻿Build started 2012-6-27 18:45:28.
+     1>Project "E:\Compiler\Compiler_AST\Compiler_AST\Compiler_AST.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Compiler_AST.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Analyse.cpp Main.cpp Parser.cpp
+         Parser.cpp
+         Main.cpp
+         Analyse.cpp
+     1>e:\compiler\compiler_ast\compiler_ast\program.h(10): error C2061: syntax error : identifier 'ClassDecls'
+     1>e:\compiler\compiler_ast\compiler_ast\program.h(16): error C2143: syntax error : missing ';' before '*'
+     1>e:\compiler\compiler_ast\compiler_ast\program.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\compiler\compiler_ast\compiler_ast\program.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\compiler\compiler_ast\compiler_ast\program.h(10): error C2065: 'cs' : undeclared identifier
+     1>e:\compiler\compiler_ast\compiler_ast\program.h(10): error C2614: 'Program' : illegal member initialization: 'm_clsdcls' is not a base or member
+     1>e:\compiler\compiler_ast\compiler_ast\analyse.cpp(12): error C2039: 'm_clsdcls' : is not a member of 'Program'
+                 e:\compiler\compiler_ast\compiler_ast\program.h(8) : see declaration of 'Program'
+         Generating Code...
+     1>e:\compiler\compiler_ast\compiler_ast\parser.cpp(83): warning C4715: 'Parser::FClassDecl' : not all control paths return a value
+     1>e:\compiler\compiler_ast\compiler_ast\parser.cpp(310): warning C4715: 'Parser::FExpp' : not all control paths return a value
+     1>e:\compiler\compiler_ast\compiler_ast\parser.cpp(372): warning C4715: 'Parser::FExp' : not all control paths return a value
+     1>e:\compiler\compiler_ast\compiler_ast\parser.cpp(432): warning C4715: 'Parser::FOp' : not all control paths return a value
+     1>Done Building Project "E:\Compiler\Compiler_AST\Compiler_AST\Compiler_AST.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.82

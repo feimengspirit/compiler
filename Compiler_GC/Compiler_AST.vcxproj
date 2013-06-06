@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6135DFD1-1B76-4585-8C41-E8CBD221FD5A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Compiler_AST</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Analyse.h" />
+    <ClInclude Include="ArrayAssignStm.h" />
+    <ClInclude Include="AssignStm.h" />
+    <ClInclude Include="BoolType.h" />
+    <ClInclude Include="BufferMgr.h" />
+    <ClInclude Include="ClassDecl.h" />
+    <ClInclude Include="ClassDecls.h" />
+    <ClInclude Include="ClassNameDecl.h" />
+    <ClInclude Include="CompositeStatement.h" />
+    <ClInclude Include="DotIdExpp.h" />
+    <ClInclude Include="DotLenExpp.h" />
+    <ClInclude Include="EmptyExpList.h" />
+    <ClInclude Include="EmptyFormalList.h" />
+    <ClInclude Include="Exp.h" />
+    <ClInclude Include="ExpList.h" />
+    <ClInclude Include="Expp.h" />
+    <ClInclude Include="ExpRest.h" />
+    <ClInclude Include="ExpRests.h" />
+    <ClInclude Include="ExtendsClassDecl.h" />
+    <ClInclude Include="FalseExp.h" />
+    <ClInclude Include="FormalList.h" />
+    <ClInclude Include="FormalRest.h" />
+    <ClInclude Include="FormalRests.h" />
+    <ClInclude Include="IArrayType.h" />
+    <ClInclude Include="Id.h" />
+    <ClInclude Include="IdExp.h" />
+    <ClInclude Include="IdType.h" />
+    <ClInclude Include="IfStatement.h" />
+    <ClInclude Include="IntType.h" />
+    <ClInclude Include="LBrackExpp.h" />
+    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="LParenExp.h" />
+    <ClInclude Include="MainClass.h" />
+    <ClInclude Include="MethodDecl.h" />
+    <ClInclude Include="MethodDecls.h" />
+    <ClInclude Include="NeExpList.h" />
+    <ClInclude Include="NEFormalList.h" />
+    <ClInclude Include="NewIdExp.h" />
+    <ClInclude Include="NewIntExp.h" />
+    <ClInclude Include="NotExp.h" />
+    <ClInclude Include="NumExp.h" />
+    <ClInclude Include="Op.h" />
+    <ClInclude Include="OpExpp.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="PrintStatement.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="SingleClassDecl.h" />
+    <ClInclude Include="Statement.h" />
+    <ClInclude Include="Statements.h" />
+    <ClInclude Include="ThisExp.h" />
+    <ClInclude Include="TrueExp.h" />
+    <ClInclude Include="Type.h" />
+    <ClInclude Include="VarDecl.h" />
+    <ClInclude Include="VarDecls.h" />
+    <ClInclude Include="WhileStatement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Analyse.cpp" />
+    <ClCompile Include="ArrayAssignStm.cpp" />
+    <ClCompile Include="AssignStm.cpp" />
+    <ClCompile Include="BoolType.cpp" />
+    <ClCompile Include="BufferMgr.cpp" />
+    <ClCompile Include="ClassDecls.cpp" />
+    <ClCompile Include="ClassNameDecl.cpp" />
+    <ClCompile Include="CompositeStatement.cpp" />
+    <ClCompile Include="DotIdExpp.cpp" />
+    <ClCompile Include="DotLenExpp.cpp" />
+    <ClCompile Include="EmptyExpList.cpp" />
+    <ClCompile Include="ExpRest.cpp" />
+    <ClCompile Include="ExpRests.cpp" />
+    <ClCompile Include="ExtendsClassDecl.cpp" />
+    <ClCompile Include="FalseExp.cpp" />
+    <ClCompile Include="IArrayType.cpp" />
+    <ClCompile Include="IdExp.cpp" />
+    <ClCompile Include="IdType.cpp" />
+    <ClCompile Include="IfStatement.cpp" />
+    <ClCompile Include="IntType.cpp" />
+    <ClCompile Include="LBrackExpp.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="LParenExp.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainClass.cpp" />
+    <ClCompile Include="NeExpList.cpp" />
+    <ClCompile Include="NewIdExp.cpp" />
+    <ClCompile Include="NewIntExp.cpp" />
+    <ClCompile Include="NotExp.cpp" />
+    <ClCompile Include="NumExp.cpp" />
+    <ClCompile Include="OpExpp.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="PrintStatement.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="SingleClassDecl.cpp" />
+    <ClCompile Include="ThisExp.cpp" />
+    <ClCompile Include="TrueExp.cpp" />
+    <ClCompile Include="VarDecl.cpp" />
+    <ClCompile Include="VarDecls.cpp" />
+    <ClCompile Include="WhileStatement.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

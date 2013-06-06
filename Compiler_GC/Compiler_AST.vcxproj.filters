@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Program">
+      <UniqueIdentifier>{5a938b79-1cc1-45c0-b120-853fadd78240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainClass">
+      <UniqueIdentifier>{a3c37257-8600-4479-87e6-f752e4ab9b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ClassDecl">
+      <UniqueIdentifier>{10a774d7-0b79-49e9-bee9-5ad34704b5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VarDecl">
+      <UniqueIdentifier>{7c3fc042-4dba-4235-87e6-7d79f853aa33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MethodDecl">
+      <UniqueIdentifier>{cfcc195a-9f28-4302-9d25-d9abc4127e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FormalList">
+      <UniqueIdentifier>{d5fe5e7c-f219-4672-9a11-b4e60c19ddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statement">
+      <UniqueIdentifier>{d2586ecb-7d63-4ad5-a2bd-ca3dbd7e74c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExpList">
+      <UniqueIdentifier>{8d3f831a-bd6c-4eb1-8443-ea7bf5d36460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Type">
+      <UniqueIdentifier>{2851fd0b-6385-4eee-b87f-6785c3b11c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{34e91dac-b5f9-4c4c-9735-11b319405a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exp">
+      <UniqueIdentifier>{940bf38e-d5b0-4973-af5d-10d05e47c44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expp">
+      <UniqueIdentifier>{b771009b-5f12-48a3-b138-4e188c289c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Program">
+      <UniqueIdentifier>{74c703bc-352e-4f32-90da-fcbe21dee223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stm">
+      <UniqueIdentifier>{da577a6f-3d9d-4ebb-a425-350678132df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exp">
+      <UniqueIdentifier>{aa528489-ea63-49a3-8347-d785dfc65e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Expp">
+      <UniqueIdentifier>{6e35fbe2-c301-41d6-81e2-0d66a8015aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExpList">
+      <UniqueIdentifier>{8d4583f8-25ab-4ef6-a65f-76bdafb66e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassDecl">
+      <UniqueIdentifier>{995cc3d8-34ff-41ca-a1d9-2eb538efad83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VarDecl">
+      <UniqueIdentifier>{089fa2b7-6d89-4c21-8152-b3c3ceccc27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Type">
+      <UniqueIdentifier>{2ba0f869-1d01-4410-b37d-27e53b7b688d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.h">
+      <Filter>Header Files\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="MainClass.h">
+      <Filter>Header Files\MainClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDecl.h">
+      <Filter>Header Files\ClassDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleClassDecl.h">
+      <Filter>Header Files\ClassDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendsClassDecl.h">
+      <Filter>Header Files\ClassDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="VarDecl.h">
+      <Filter>Header Files\VarDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodDecl.h">
+      <Filter>Header Files\MethodDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="FormalList.h">
+      <Filter>Header Files\FormalList</Filter>
+    </ClInclude>
+    <ClInclude Include="FormalRest.h">
+      <Filter>Header Files\FormalList</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyFormalList.h">
+      <Filter>Header Files\FormalList</Filter>
+    </ClInclude>
+    <ClInclude Include="NEFormalList.h">
+      <Filter>Header Files\FormalList</Filter>
+    </ClInclude>
+    <ClInclude Include="Statement.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeStatement.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="IfStatement.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileStatement.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintStatement.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignStm.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayAssignStm.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="IArrayType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="IntType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="IdType.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferMgr.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Header Files\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="Op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Expp.h">
+      <Filter>Header Files\Expp</Filter>
+    </ClInclude>
+    <ClInclude Include="LBrackExpp.h">
+      <Filter>Header Files\Expp</Filter>
+    </ClInclude>
+    <ClInclude Include="OpExpp.h">
+      <Filter>Header Files\Expp</Filter>
+    </ClInclude>
+    <ClInclude Include="DotLenExpp.h">
+      <Filter>Header Files\Expp</Filter>
+    </ClInclude>
+    <ClInclude Include="DotIdExpp.h">
+      <Filter>Header Files\Expp</Filter>
+    </ClInclude>
+    <ClInclude Include="NumExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="FalseExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="IdExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="ThisExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="NewIntExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="NewIdExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="NotExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="LParenExp.h">
+      <Filter>Header Files\Exp</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDecls.h">
+      <Filter>Header Files\ClassDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="Id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VarDecls.h">
+      <Filter>Header Files\VarDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodDecls.h">
+      <Filter>Header Files\MethodDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassNameDecl.h">
+      <Filter>Header Files\ClassDecl</Filter>
+    </ClInclude>
+    <ClInclude Include="Statements.h">
+      <Filter>Header Files\Statement</Filter>
+    </ClInclude>
+    <ClInclude Include="FormalRests.h">
+      <Filter>Header Files\FormalList</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpList.h">
+      <Filter>Header Files\ExpList</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyExpList.h">
+      <Filter>Header Files\ExpList</Filter>
+    </ClInclude>
+    <ClInclude Include="NeExpList.h">
+      <Filter>Header Files\ExpList</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpRest.h">
+      <Filter>Header Files\ExpList</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpRests.h">
+      <Filter>Header Files\ExpList</Filter>
+    </ClInclude>
+    <ClInclude Include="Analyse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Analyse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="MainClass.cpp">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignStm.cpp">
+      <Filter>Source Files\stm</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileStatement.cpp">
+      <Filter>Source Files\stm</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintStatement.cpp">
+      <Filter>Source Files\stm</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayAssignStm.cpp">
+      <Filter>Source Files\stm</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeStatement.cpp">
+      <Filter>Source Files\stm</Filter>
+    </ClCompile>
+    <ClCompile Include="FalseExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="IdExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="ThisExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="NumExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="NotExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="NewIdExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="NewIntExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="LParenExp.cpp">
+      <Filter>Source Files\Exp</Filter>
+    </ClCompile>
+    <ClCompile Include="OpExpp.cpp">
+      <Filter>Source Files\Expp</Filter>
+    </ClCompile>
+    <ClCompile Include="DotIdExpp.cpp">
+      <Filter>Source Files\Expp</Filter>
+    </ClCompile>
+    <ClCompile Include="DotLenExpp.cpp">
+      <Filter>Source Files\Expp</Filter>
+    </ClCompile>
+    <ClCompile Include="LBrackExpp.cpp">
+      <Filter>Source Files\Expp</Filter>
+    </ClCompile>
+    <ClCompile Include="NeExpList.cpp">
+      <Filter>Source Files\ExpList</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpRests.cpp">
+      <Filter>Source Files\ExpList</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpRest.cpp">
+      <Filter>Source Files\ExpList</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyExpList.cpp">
+      <Filter>Source Files\ExpList</Filter>
+    </ClCompile>
+    <ClCompile Include="IfStatement.cpp">
+      <Filter>Source Files\stm</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassDecls.cpp">
+      <Filter>Source Files\ClassDecl</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassNameDecl.cpp">
+      <Filter>Source Files\ClassDecl</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendsClassDecl.cpp">
+      <Filter>Source Files\ClassDecl</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleClassDecl.cpp">
+      <Filter>Source Files\ClassDecl</Filter>
+    </ClCompile>
+    <ClCompile Include="VarDecl.cpp">
+      <Filter>Source Files\VarDecl</Filter>
+    </ClCompile>
+    <ClCompile Include="VarDecls.cpp">
+      <Filter>Source Files\VarDecl</Filter>
+    </ClCompile>
+    <ClCompile Include="IntType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="IdType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="IArrayType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolType.cpp">
+      <Filter>Source Files\Type</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
